@@ -22,11 +22,8 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - name: Make Gradle executable
-        run: chmod +x gradlew
-
       - name: Build Release Bundle
-        run: ./gradlew bundleRelease
+        run: gradle bundleRelease
 
       - name: Upload AAB
         uses: actions/upload-artifact@v4
