@@ -1,0 +1,6 @@
+{
+  "name": "FoodLink AI",
+  "description": "An AI-powered SaaS and mobile ecosystem to reduce food waste, coordinate NGO surplus collections, and measure environmental impact.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
